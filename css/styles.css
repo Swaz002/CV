@@ -172,3 +172,40 @@ p{
 .U {
   text-decoration: underline;
 }
+
+@media (max-width: 1000px) {
+  .copyright{
+    font-size: 0.5rem;
+  }
+  
+  .intro {
+    font-size: 2rem;
+    width: 80%
+  }
+
+  .skill-row{
+    line-height: 2;
+    margin: 100px auto;
+    text-align: left;
+    width: 80%;
+    font-size: 2rem;
+  }
+
+  h1{
+    font-size: 120px;
+  }
+
+  h2{
+    font-size: 3rem;
+  }
+
+  .message{
+    font-size: 1.8rem;
+    width: 60%;
+  }
+  
+  .TopContainer{
+    padding-top: 150px;
+  }
+
+}
