@@ -173,7 +173,7 @@ p{
   text-decoration: underline;
 }
 
-@media(max-width: 780px) {
+@media screen and (max-width: 780px) {
   .intro{
     width: 60%;
     margin: auto;
