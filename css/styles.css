@@ -50,10 +50,6 @@ p{
   font-weight: bold;
 }
 
-span{
-  text-decoration: underline;
-}
-
 
 .btn {
   background: #3498db;
@@ -102,6 +98,9 @@ span{
   padding-top: 15px;
 }
 
+.help-tab{
+  font-size: 1.8em;
+}
 
 .message{
   width: 40%;
@@ -125,6 +124,10 @@ span{
   margin: 100px auto;
 }
 
+.red {
+  color: #E57A5F;
+}
+
 .skill-com{
   width: 25%;
   float: left;
@@ -132,10 +135,18 @@ span{
   border-radius: 100%;
 }
 
-.skill-chilli{
+.skill-game{
   width: 25%;
   float: right;
   margin-left: 30px;
+  border-radius: 100%;
+}
+
+.skill-bread {
+  width: 25%;
+  float: right;
+  border-radius: 100%;
+  
 }
 
 .skill-row{
@@ -156,4 +167,8 @@ span{
   position: absolute;
   right: 300px;
   top: 30px;
+}
+
+.U {
+  text-decoration: underline;
 }
