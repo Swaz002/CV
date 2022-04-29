@@ -173,11 +173,11 @@ p{
   text-decoration: underline;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media(max-width: 780px) {
   .intro{
     width: 60%;
     margin: auto;
     color: red;
   }
-  
+
 }
