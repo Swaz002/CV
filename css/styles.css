@@ -146,7 +146,7 @@ p{
   width: 25%;
   float: right;
   border-radius: 100%;
-  
+
 }
 
 .skill-row{
@@ -171,4 +171,13 @@ p{
 
 .U {
   text-decoration: underline;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .intro{
+    width: 60%;
+    margin: auto;
+    color: red;
+  }
+  
 }
